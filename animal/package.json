@@ -1,0 +1,16 @@
+{
+  "name": "animal",
+  "version": "1.0.0",
+  "description": "Praticar conceito de Generic no Typescript",
+  "main": "dist/js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run compile && node dist/js/app.js",
+    "compile": "tsc"
+  },
+  "author": "Natália Barros",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
